@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A4EC627C2AB88E08006ECC8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC627B2AB88E08006ECC8C /* AppDelegate.swift */; };
-		A4EC627E2AB88E08006ECC8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC627D2AB88E08006ECC8C /* SceneDelegate.swift */; };
-		A4EC62802AB88E08006ECC8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC627F2AB88E08006ECC8C /* ViewController.swift */; };
-		A4EC62832AB88E08006ECC8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EC62812AB88E08006ECC8C /* Main.storyboard */; };
-		A4EC62852AB88E09006ECC8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4EC62842AB88E09006ECC8C /* Assets.xcassets */; };
-		A4EC62882AB88E09006ECC8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EC62862AB88E09006ECC8C /* LaunchScreen.storyboard */; };
 		A4EC62932AB88E0A006ECC8C /* IOSArchitectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC62922AB88E0A006ECC8C /* IOSArchitectureTests.swift */; };
 		A4EC629D2AB88E0A006ECC8C /* IOSArchitectureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC629C2AB88E0A006ECC8C /* IOSArchitectureUITests.swift */; };
 		A4EC629F2AB88E0A006ECC8C /* IOSArchitectureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC629E2AB88E0A006ECC8C /* IOSArchitectureUITestsLaunchTests.swift */; };
+		A4EC62AC2AB89022006ECC8C /* LoginUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC62AB2AB89022006ECC8C /* LoginUseCase.swift */; };
+		A4EC62AE2AB890C5006ECC8C /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC62AD2AB890C5006ECC8C /* LoginPresenter.swift */; };
+		A4EC62B02AB890E6006ECC8C /* CrashlyticsLoginTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC62AF2AB890E6006ECC8C /* CrashlyticsLoginTracker.swift */; };
+		A4EC62B22AB891E3006ECC8C /* FirebaseLoginTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC62B12AB891E3006ECC8C /* FirebaseLoginTracker.swift */; };
+		A4EC62B82AB896FC006ECC8C /* ComposeLoginUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC62B72AB896FC006ECC8C /* ComposeLoginUseCase.swift */; };
+		A4EC62BA2AB89890006ECC8C /* ComposeLoginUseCaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC62B52AB893AD006ECC8C /* ComposeLoginUseCaseTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,18 +37,18 @@
 
 /* Begin PBXFileReference section */
 		A4EC62782AB88E08006ECC8C /* IOSArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4EC627B2AB88E08006ECC8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A4EC627D2AB88E08006ECC8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A4EC627F2AB88E08006ECC8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A4EC62822AB88E08006ECC8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A4EC62842AB88E09006ECC8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A4EC62872AB88E09006ECC8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4EC62892AB88E09006ECC8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4EC628E2AB88E0A006ECC8C /* IOSArchitectureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSArchitectureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4EC62922AB88E0A006ECC8C /* IOSArchitectureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSArchitectureTests.swift; sourceTree = "<group>"; };
 		A4EC62982AB88E0A006ECC8C /* IOSArchitectureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSArchitectureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4EC629C2AB88E0A006ECC8C /* IOSArchitectureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSArchitectureUITests.swift; sourceTree = "<group>"; };
 		A4EC629E2AB88E0A006ECC8C /* IOSArchitectureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSArchitectureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A4EC62AB2AB89022006ECC8C /* LoginUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUseCase.swift; sourceTree = "<group>"; };
+		A4EC62AD2AB890C5006ECC8C /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		A4EC62AF2AB890E6006ECC8C /* CrashlyticsLoginTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashlyticsLoginTracker.swift; sourceTree = "<group>"; };
+		A4EC62B12AB891E3006ECC8C /* FirebaseLoginTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseLoginTracker.swift; sourceTree = "<group>"; };
+		A4EC62B52AB893AD006ECC8C /* ComposeLoginUseCaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeLoginUseCaseTest.swift; sourceTree = "<group>"; };
+		A4EC62B72AB896FC006ECC8C /* ComposeLoginUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeLoginUseCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +99,12 @@
 		A4EC627A2AB88E08006ECC8C /* IOSArchitecture */ = {
 			isa = PBXGroup;
 			children = (
-				A4EC627B2AB88E08006ECC8C /* AppDelegate.swift */,
-				A4EC627D2AB88E08006ECC8C /* SceneDelegate.swift */,
-				A4EC627F2AB88E08006ECC8C /* ViewController.swift */,
-				A4EC62812AB88E08006ECC8C /* Main.storyboard */,
-				A4EC62842AB88E09006ECC8C /* Assets.xcassets */,
-				A4EC62862AB88E09006ECC8C /* LaunchScreen.storyboard */,
 				A4EC62892AB88E09006ECC8C /* Info.plist */,
+				A4EC62AB2AB89022006ECC8C /* LoginUseCase.swift */,
+				A4EC62AD2AB890C5006ECC8C /* LoginPresenter.swift */,
+				A4EC62AF2AB890E6006ECC8C /* CrashlyticsLoginTracker.swift */,
+				A4EC62B12AB891E3006ECC8C /* FirebaseLoginTracker.swift */,
+				A4EC62B72AB896FC006ECC8C /* ComposeLoginUseCase.swift */,
 			);
 			path = IOSArchitecture;
 			sourceTree = "<group>";
@@ -113,6 +112,7 @@
 		A4EC62912AB88E0A006ECC8C /* IOSArchitectureTests */ = {
 			isa = PBXGroup;
 			children = (
+				A4EC62B52AB893AD006ECC8C /* ComposeLoginUseCaseTest.swift */,
 				A4EC62922AB88E0A006ECC8C /* IOSArchitectureTests.swift */,
 			);
 			path = IOSArchitectureTests;
@@ -231,9 +231,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4EC62882AB88E09006ECC8C /* LaunchScreen.storyboard in Resources */,
-				A4EC62852AB88E09006ECC8C /* Assets.xcassets in Resources */,
-				A4EC62832AB88E08006ECC8C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +255,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4EC62802AB88E08006ECC8C /* ViewController.swift in Sources */,
-				A4EC627C2AB88E08006ECC8C /* AppDelegate.swift in Sources */,
-				A4EC627E2AB88E08006ECC8C /* SceneDelegate.swift in Sources */,
+				A4EC62B02AB890E6006ECC8C /* CrashlyticsLoginTracker.swift in Sources */,
+				A4EC62B82AB896FC006ECC8C /* ComposeLoginUseCase.swift in Sources */,
+				A4EC62B22AB891E3006ECC8C /* FirebaseLoginTracker.swift in Sources */,
+				A4EC62AC2AB89022006ECC8C /* LoginUseCase.swift in Sources */,
+				A4EC62AE2AB890C5006ECC8C /* LoginPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4EC62BA2AB89890006ECC8C /* ComposeLoginUseCaseTest.swift in Sources */,
 				A4EC62932AB88E0A006ECC8C /* IOSArchitectureTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,25 +295,6 @@
 			targetProxy = A4EC62992AB88E0A006ECC8C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A4EC62812AB88E08006ECC8C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A4EC62822AB88E08006ECC8C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A4EC62862AB88E09006ECC8C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A4EC62872AB88E09006ECC8C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A4EC62A02AB88E0A006ECC8C /* Debug */ = {
@@ -370,7 +351,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -423,7 +404,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
@@ -498,7 +479,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOSArchitecture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IOSArchitecture";
 			};
 			name = Debug;
@@ -517,7 +498,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOSArchitecture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IOSArchitecture";
 			};
 			name = Release;
